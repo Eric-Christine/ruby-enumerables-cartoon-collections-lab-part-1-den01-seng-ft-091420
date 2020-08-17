@@ -17,7 +17,7 @@ def list_dwarves(array)
    
     array.each_with_index do |dwarves, index|
       index = index + 1
-      Print index.to_s + ". " + dwarves
+      print index.to_s + ". " + dwarves
   end
   
 end
