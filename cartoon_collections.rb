@@ -16,7 +16,7 @@ def list_dwarves(array)
   
    
     array.each_with_index do |dwarves, index|
-      puts index.to_s + dwarves 
+      index.to_s + dwarves 
   end
   
 end
