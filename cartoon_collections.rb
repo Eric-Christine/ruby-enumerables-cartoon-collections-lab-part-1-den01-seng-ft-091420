@@ -16,7 +16,8 @@ def list_dwarves(array)
   
    
     array.each_with_index do |dwarves, index|
-      index.to_s + dwarves 
+      index = index + 1
+      index_to.
   end
   
 end
